@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	SCP
+%define		pdir	Net
+%define		pnam	SCP
 Summary:	Net::SCP - Perl extension for secure copy protocol
 Summary(pl):	Net::SCP - perlowe rozszerzenie do obs³ugi protoko³u bezpiecznego kopiowania
 Name:		perl-Net-SCP

@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	SCP
 Summary:	Net::SCP - Perl extension for secure copy protocol
-Summary(pl):	Net::SCP - perlowe rozszerzenie do obs≥ugi protoko≥u bezpiecznego kopiowania
+Summary(pl.UTF-8):   Net::SCP - perlowe rozszerzenie do obs≈Çugi protoko≈Çu bezpiecznego kopiowania
 Name:		perl-Net-SCP
 Version:	0.07
 Release:	1
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Simple wrappers around ssh and scp commands.
 
-%description -l pl
-Proste wrappery dla poleceÒ ssh i scp.
+%description -l pl.UTF-8
+Proste wrappery dla polece≈Ñ ssh i scp.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

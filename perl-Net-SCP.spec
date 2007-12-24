@@ -8,13 +8,13 @@
 Summary:	Net::SCP - Perl extension for secure copy protocol
 Summary(pl.UTF-8):	Net::SCP - perlowe rozszerzenie do obsługi protokołu bezpiecznego kopiowania
 Name:		perl-Net-SCP
-Version:	0.07
+Version:	0.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bf7e89b5741b98f4a9e40896f0baf230
+# Source0-md5:	09005478b3eb9f151163f58d03cf83c4
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
